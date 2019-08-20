@@ -1,0 +1,75 @@
+.Square {
+	width: 25px;
+	height: 25px;
+}
+
+.failed {
+	background-color: red;
+}
+
+.fruit {
+	background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-animation: breathing 3s ease-out infinite normal;
+  animation: breathing 3s ease-out infinite normal;
+}
+
+.boardBorder {
+	background-color: black;
+}
+
+.snakeBody {
+	background-color: black;
+}
+
+.emptyCell {
+	background-color: transparent;
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  50% {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.apple {
+	background-image: url('../../Images/Apple.png');
+}
+
+.banana {
+	background-image: url('../../Images/Banana.png');
+}
+
+.cherry {
+	background-image: url('../../Images/Cherry.png');
+}
+
+.coconut {
+	background-image: url('../../Images/Coconut.png');
+}
+
+.orange {
+	background-image: url('../../Images/Orange.png');
+}
+
+.strawberry {
+	background-image: url('../../Images/Strawberry.png');
+}
+
+.watermelon {
+	background-image: url('../../Images/Watermelon.png');
+}
